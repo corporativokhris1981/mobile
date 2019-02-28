@@ -1,0 +1,47 @@
+html,body{height:100%;
+}
+h1{
+	text-align:center;
+	text-shadow:0 0 0.5em rgba(0,0,0,0.8);
+}
+body{
+	background: url(paisaje.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+
+}
+.caja{
+	background: rgba(255,255,255,0.6);
+	column-count: 3;
+	column-rule:dashed 0.1em;
+	margin: 0 auto;
+	width:60%;
+	text-align: justify 
+	}
+	.galeria{
+		display:flex;
+	}
+	.galeria div{filter:grayscale(1);
+		height:200px;
+		padding:3em;
+		width:25%;
+		transition:all linear 3s;
+	}
+    .galeria div:nth-child(1){
+        background:url("f1.jpg");
+        background-size: cover;
+		}
+
+	.galeria div:nth-child(2){
+        background:url("f2.jpg");
+		}
+
+	.galeria div:nth-child(3){
+        background:url("f3.jpg");
+		}
+	.galeria div:hover{
+		filter:grayscale(0);
+	}
+
+	}
+}

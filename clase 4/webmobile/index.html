@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="css/temac.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>web app</title>
+</head>
+<body>
+	<!-- pagina inicio -->
+
+	
+	    <div data-theme="c"	    data-role="page" data-tittle="inicio">
+			<div data-role="header">
+				<a href="#panel" data-role="button" class="ui-btn-right">Menú</a>
+				<h1>Mi primera APP interfaz</h1>
+			</div>
+			   
+			<div data-role="content">
+				<!-- panel de Control-->
+<div data-role="panel" data-display="overlay" id="panel" data-position="right">
+    <h3>Menú</h3>
+    <ul data-role="listview">
+    	<li><a href="" hrefr="#">pagina1</a></li>
+    	<li><a href="" hrefr="#">pagina2</a></li>
+    	<li><a href="" hrefr="#">pagina3</a></li>
+    	<li><a href="" hrefr="#">pagina4</a></li>
+    	<li><a href="" hrefr="#">pagina5</a></li>
+    </ul>
+    <a href="" data-rel="close" data-role="button">
+    	Cerrar
+     </a>
+</div>
+
+<!-- fin panel de control -->
+						
+				 <p>Contenido App</p>
+				 <hr>
+				  <a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+			</div>
+			    <img src="css/images/dragon-ball-z-ss-goku-i58617.jpg">
+			  
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			  	<ul>
+			  		<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+			  		<li><a data-transition="pop"data-icon="plus" href="#vision">Vision</a></li>
+			  		<li><a data-transition="salideup"data-icon="grid" href="#servicios">Servicios</a></li>
+			  		<li><a data-transition="flip"data-icon="home" href="#inicio">Home</a></li>
+			  	</ul>
+			  </div>
+			</div>
+			 
+	</div>
+	<!--fin pagina inicio-->
+
+
+
+	<!--contacto inicio-->
+	<div data-role="page" id="contacto">
+		<div data-role="header">
+			<h1>Contacto</h1>
+		</div>
+		<div data-role="content">
+			<form action="">
+				Nombre	
+				<input type="text">
+				Correo
+				<input type="text">
+				Comentario
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<input type="submit">
+			</form>
+		</div>
+		<div data-role="footer">
+			<p>Cel:.343434, Carrerar </p>
+		</div>
+	</div>
+	  
+
+	  <!-- mision inicio -->
+	     <div data-theme="b"	    data-role="page" data-tittle="mision" id="mision">
+	  			<div data-role="header">
+	  				<h1>Misión</h1>
+	  			</div>
+	  			   
+	  			<div data-role="content">
+	  						
+	  				 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam fugiat debitis deleniti non, totam, eveniet consequatur, cumque nemo, voluptas itaque temporibus quod velit officia similique maiores sed facilis unde tempora?
+	  			  
+	  			<div data-role="footer" data-position="fixed">
+	  				 <div data-role="navbar">
+	  			  	<ul>
+	  			  		<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+	  			  		<li><a data-transition="pop"data-icon="plus" href="#vision">Vision</a></li>
+	  			  		<li><a data-transition="salideup"data-icon="grid" href="#servicios">Servicios</a></li>
+	  			  		<li><a data-transition="flip"data-icon="home" href="#inicio">Home</a></li>
+	  			  	</ul>
+	  			  </div>
+	  			</div>
+	  			 
+	  	</div>
+	  <!-- mision final -->
+<!-- vision inicio -->
+       <div id ="vision"  data-theme="b"	    data-role="page" data-tittle="vision">
+			<div data-role="header">
+				<h1>vision</h1>
+			</div>
+			   
+			<div data-role="content">
+				<ul data-role="list-view">
+					<li><a href="#1">p1</a></li>
+					<li><a href="#2">p2</a></li>
+					<li><a href="#3">p3</a></li>
+					<li><a href="#4">p4</a></li>
+				</ul>
+			</div>
+			    <img src="css/images/dragon-ball-z-ss-goku-i58617.jpg">
+			  
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			  	<ul>
+			  		<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+			  		<li><a data-transition="pop"data-icon="plus" href="#vision">Vision</a></li>
+			  		<li><a data-transition="salideup"data-icon="grid" href="#servicios">Servicios</a></li>
+			  		<li><a data-transition="flip"data-icon="home" href="#inicio">Home</a></li>
+			  	</ul>
+			  </div>
+			</div>
+
+			
+			 
+	</div>
+
+<!-- vision final -->
+
+<!-- servicions inicio -->
+       <div id ="servicios"  data-theme="b"	    data-role="page" data-tittle="servicios">
+			<div data-role="header">
+				<h1>Servicios</h1>
+			</div>
+			   
+			<div data-role="content">
+						
+				 <p>Contenido APP</p>
+				 <hr>
+				  <a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+			</div>
+			    <img src="css/images/dragon-ball-z-ss-goku-i58617.jpg">
+			  
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			  	<ul>
+			  		<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+			  		<li><a data-transition="pop"data-icon="plus" href="#vision">Vision</a></li>
+			  		<li><a data-transition="salideup"data-icon="grid" href="#servicios">Servicios</a></li>
+			  		<li><a data-transition="flip"data-icon="home" href="#inicio">Home</a></li>
+			  	</ul>
+			  </div>
+			</div>
+
+			
+			 
+	</div>
+<!-- servicios fin -->
+<!-- pagina inicio -->
+            <div id="pagina1" data-theme="b"	    data-role="page" data-tittle="pagina1">
+			<div data-role="header">
+				<a href="#panel" data-role="button" class="ui-btn-right">Menú</a>
+				<h1>pagina1</h1>
+			</div>
+			   
+			<div data-role="content">
+				<!-- panel de Control-->
+<div data-role="panel" data-display="overlay" id="panel" data-position="right">
+    <h3>Menú</h3>
+    <ul data-role="listview">
+    	<li><a href="" hrefr="#">pagina1</a></li>
+    	<li><a href="" hrefr="#">pagina2</a></li>
+    	<li><a href="" hrefr="#">pagina3</a></li>
+    	<li><a href="" hrefr="#">pagina4</a></li>
+    	<li><a href="" hrefr="#">pagina5</a></li>
+    </ul>
+    <a href="" data-rel="close" data-role="button">
+    	Cerrar
+     </a>
+</div>
+
+<!-- fin panel de control -->
+						
+				 <p>Contenido App</p>
+				 <hr>
+				  <a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+			</div>
+			    <img src="css/images/dragon-ball-z-ss-goku-i58617.jpg">
+			  
+			<div data-role="footer" data-position="fixed">
+				 <div data-role="navbar">
+			  	<ul>
+			  		<li><a data-transition="flip" data-icon="star" href="#mision">Mision</a></li>
+			  		<li><a data-transition="pop"data-icon="plus" href="#vision">Vision</a></li>
+			  		<li><a data-transition="salideup"data-icon="grid" href="#servicios">Servicios</a></li>
+			  		<li><a data-transition="flip"data-icon="home" href="#inicio">Home</a></li>
+			  	</ul>
+			  </div>
+			</div>
+			 
+	</div>
+	<!-- <llamando los scripts> -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <!-- <finalizando los llamados de scripts> -->
+</body>
+</html>
